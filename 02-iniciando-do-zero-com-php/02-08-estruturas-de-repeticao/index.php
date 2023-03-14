@@ -61,7 +61,7 @@ for($c = 1; $c <= 10; $c++){
  */
 fullStackPHPClassSession("foreach", __LINE__);
 
-$arr=[];
+$array=[];
 for($ar = 1; $ar <= 10; $ar++){
     $array[] = $ar;
 }
