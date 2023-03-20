@@ -38,7 +38,7 @@ $dataFilter = http_build_query([
     "company" => "Ares",
     "mail" => "bruno@aresapp.com.br",
     "site" => "aresapp.com.br",
-    "script" => "<script>alert('Esse é um Javascript')</script>"
+    // "script" => "<script>alert('Esse é um Javascript')</script>"
 ]);
 
 echo "<p><a href='index.php?{$dataFilter}'>Data Filter</a></p>";
@@ -66,7 +66,7 @@ $dataFilter = http_build_query([
     "company" => "Ares",
     "mail" => "bruno@aresapp.com.br",
     "site" => "aresapp.com.br",
-    "script" => "<script>alert('Esse é um Javascript')</script>"
+    // "script" => "<script>alert('Esse é um Javascript')</script>"
 ]);
 
 parse_str($dataFilter, $arrDataFilter);
@@ -78,5 +78,5 @@ $dataPreFilter =[
     "company" => "FILTER_SANITIZE_STRING",
     "mail" => "FILTER_VALIDATE,                                                                                                                                                                                                                                                                          ",
     "site" => "aresapp.com.br",
-    "script" => "<script>alert('Esse é um Javascript')</script>"
+    // "script" => "<script>alert('Esse é um Javascript')</script>"
 ];

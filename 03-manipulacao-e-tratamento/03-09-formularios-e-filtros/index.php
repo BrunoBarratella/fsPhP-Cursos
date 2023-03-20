@@ -42,7 +42,7 @@ if ($postArray) {
         $saveStrip = array_map("strip_tags", $postArray);
         $save = array_map("trim", $saveStrip);
         var_dump($save);
-        echo "<p class='trigger warning'>Cadastro feito com sucesso</p>";
+        echo "<p class='trigger accept'>Cadastro feito com sucesso</p>";
     }
 }
 
